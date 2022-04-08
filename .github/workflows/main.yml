@@ -1,0 +1,31 @@
+name: QA Review
+on:
+  pull_request:
+    types: [labeled, unlabeled]
+  workflow_dispatch:
+  pull_request_review:
+
+jobs:
+    QA_not_requested:
+      if: "contains(github.event.pull_request.labels.*.name, 'QA not required')"
+      runs-on: ubuntu-latest
+      steps:
+      - run: |
+          echo QA not required
+    QA_requested:
+      if: "!contains(github.event.pull_request.labels.*.name, 'QA not required')"
+      runs-on: ubuntu-latest
+      steps:
+      - name: 'echo'
+        run: |
+          echo $QA_LIST
+      - name: 'QA'
+        # if: "contains(github.event.review.user.login, $QA_LIST)"
+        run: |
+          echo ${{ toJSON(github.event.review.user.login) }}
+        env: 
+          QA_LIST: |
+            (
+              "ximpaparella"
+              "diego-brunetto"
+            )
