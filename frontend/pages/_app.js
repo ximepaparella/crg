@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Header/>
     <main>
-      <Component {...pageProps} />∫
+      <Component {...pageProps} />
     </main>
   </>
   )}

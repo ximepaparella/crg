@@ -1,7 +1,7 @@
 export default function Nosotros() {
 
     return (
-        <h2> Nosotros </h2>
+        <h2> Nosotros</h2>
     )
 }
 
