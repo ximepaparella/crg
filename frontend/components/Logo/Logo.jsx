@@ -1,9 +1,12 @@
+import styles from "./Logo.module.scss";
+
 const Logo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       style={{ backgroundColor: "#ffffff00" }}
       viewBox="0 0 304 77"
+      className={styles.logo}
     >
       <path
         fill="#00688c"

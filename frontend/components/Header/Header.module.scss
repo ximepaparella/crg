@@ -1,3 +1,7 @@
+@import "./../../styles/base/variables";
+
 .header {
   display: flex;
+  justify-content: center;
+  padding: $spacing-m $spacing-s;
 }

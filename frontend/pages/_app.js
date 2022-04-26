@@ -7,12 +7,14 @@ import "../styles/globals.scss";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
-      <Navbar />
-      <main>
-        <Component {...pageProps} />
-      </main>
-      <Footer />
+      <div id="wrapper">
+        <Header />
+        <Navbar />
+        <main>
+          <Component {...pageProps} />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

@@ -5,11 +5,28 @@ body {
   padding: 0;
   margin: 0;
   font-family: $font-narrow;
+  font-size: $font;
+}
+
+#wrapper {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.link {
+  color: $pink-100;
+  text-decoration: none;
+
+  &:hover {
+    color: $pink-500;
+  }
 }
 
 * {
