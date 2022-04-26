@@ -5,6 +5,8 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  width: 100%;
+  padding: 0;
 
   li {
     &:last-child {
@@ -25,10 +27,12 @@
 
 .link {
   background-color: $blue-100;
-  padding: $spacing-xs $spacing-s;
+  border: 1px solid $blue-100;
+  padding: 0.2em 0.5em;
   color: white;
 
   &:hover {
     background-color: $blue-500;
+    border: 1px solid $blue-500;
   }
 }

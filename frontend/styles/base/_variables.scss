@@ -12,11 +12,14 @@ $pink-100: #ff3cac;
 $pink-500: #ac3379;
 
 /* Tipografías */
-$font-narrow: "Archivo Narrow", sans-serif;
+$font-narrow: "Archivo Narrow", Helvetica, Arial, sans-serif;
+$font-w-400: 400;
+$font-w-500: 500;
+$font-w-600: 600;
 
 $font-h1: 2.5rem;
 $font-h2: 1.6rem;
-$font: 1rem;
+$font: 21px;
 
 /* Espaciados */
 $spacing-xs: 0.5rem;

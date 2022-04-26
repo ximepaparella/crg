@@ -1,3 +1,9 @@
+@import "./../../styles/base/variables";
+
 .footer {
   display: flex;
+  width: 100%;
+  background-color: $blue-500;
+  justify-content: space-between;
+  padding: $spacing-xs $spacing-s;
 }
