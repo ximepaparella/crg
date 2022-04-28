@@ -2,6 +2,9 @@
 $white: #fff;
 $black: #000;
 
+$grey-100: #ddd;
+$grey-500: #444;
+
 $blue-100: #66a4ba;
 $blue-500: #00688c;
 
@@ -11,15 +14,18 @@ $green-500: #057878;
 $pink-100: #ff3cac;
 $pink-500: #ac3379;
 
+$yellow-500: #ffd50b;
+
 /* Tipografías */
 $font-narrow: "Archivo Narrow", Helvetica, Arial, sans-serif;
 $font-w-400: 400;
 $font-w-500: 500;
 $font-w-600: 600;
 
+$font: 21px;
 $font-h1: 2.5rem;
 $font-h2: 1.6rem;
-$font: 21px;
+$font-text: 15px;
 
 /* Espaciados */
 $spacing-xs: 0.5rem;

@@ -1,0 +1,21 @@
+@import "./../../styles/base/variables";
+
+.intro-text {
+  border: solid $grey-100 6px;
+  font-size: $font-text;
+  color: $grey-500;
+  position: relative;
+  padding: $spacing-xs $spacing-s;
+
+  &:before {
+    content: "";
+    height: 20px;
+    width: 14px;
+    position: absolute;
+    top: 33px;
+    left: -9px;
+    background: $yellow-500;
+    border-bottom: 4px solid $white;
+    border-top: 4px solid $white;
+  }
+}
